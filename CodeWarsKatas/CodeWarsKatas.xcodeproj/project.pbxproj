@@ -11,6 +11,8 @@
 		745B5E612806801100D259DE /* CamelCaseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E602806801100D259DE /* CamelCaseMethod.swift */; };
 		745B5E64280683E200D259DE /* ToLeetSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E63280683E200D259DE /* ToLeetSpeak.swift */; };
 		745B5E672806895300D259DE /* WeightForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E662806895300D259DE /* WeightForWeight.swift */; };
+		745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6828068B7700D259DE /* RGBToHexConversion.swift */; };
+		745B5E6B28069D9700D259DE /* ValidBraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6A28069D9700D259DE /* ValidBraces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		745B5E602806801100D259DE /* CamelCaseMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelCaseMethod.swift; sourceTree = "<group>"; };
 		745B5E63280683E200D259DE /* ToLeetSpeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLeetSpeak.swift; sourceTree = "<group>"; };
 		745B5E662806895300D259DE /* WeightForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightForWeight.swift; sourceTree = "<group>"; };
+		745B5E6828068B7700D259DE /* RGBToHexConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBToHexConversion.swift; sourceTree = "<group>"; };
+		745B5E6A28069D9700D259DE /* ValidBraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBraces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				745B5E602806801100D259DE /* CamelCaseMethod.swift */,
+				745B5E6A28069D9700D259DE /* ValidBraces.swift */,
 			);
 			path = 6kyu;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				745B5E662806895300D259DE /* WeightForWeight.swift */,
+				745B5E6828068B7700D259DE /* RGBToHexConversion.swift */,
 			);
 			path = 5kyu;
 			sourceTree = "<group>";
@@ -153,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745B5E6B28069D9700D259DE /* ValidBraces.swift in Sources */,
 				745B5E612806801100D259DE /* CamelCaseMethod.swift in Sources */,
 				745B5E5928067FD800D259DE /* main.swift in Sources */,
 				745B5E64280683E200D259DE /* ToLeetSpeak.swift in Sources */,
+				745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */,
 				745B5E672806895300D259DE /* WeightForWeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
