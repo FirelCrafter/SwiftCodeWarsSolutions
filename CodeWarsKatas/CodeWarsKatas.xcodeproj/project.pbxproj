@@ -13,6 +13,7 @@
 		745B5E672806895300D259DE /* WeightForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E662806895300D259DE /* WeightForWeight.swift */; };
 		745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6828068B7700D259DE /* RGBToHexConversion.swift */; };
 		745B5E6B28069D9700D259DE /* ValidBraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6A28069D9700D259DE /* ValidBraces.swift */; };
+		745B5E6F2806CB6500D259DE /* PlayingWithDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6E2806CB6500D259DE /* PlayingWithDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		745B5E662806895300D259DE /* WeightForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightForWeight.swift; sourceTree = "<group>"; };
 		745B5E6828068B7700D259DE /* RGBToHexConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBToHexConversion.swift; sourceTree = "<group>"; };
 		745B5E6A28069D9700D259DE /* ValidBraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBraces.swift; sourceTree = "<group>"; };
+		745B5E6E2806CB6500D259DE /* PlayingWithDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				745B5E602806801100D259DE /* CamelCaseMethod.swift */,
 				745B5E6A28069D9700D259DE /* ValidBraces.swift */,
+				745B5E6E2806CB6500D259DE /* PlayingWithDigits.swift */,
 			);
 			path = 6kyu;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				745B5E5928067FD800D259DE /* main.swift in Sources */,
 				745B5E64280683E200D259DE /* ToLeetSpeak.swift in Sources */,
 				745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */,
+				745B5E6F2806CB6500D259DE /* PlayingWithDigits.swift in Sources */,
 				745B5E672806895300D259DE /* WeightForWeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
