@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(camelCase(str: "hello case"))
+
 

@@ -14,6 +14,7 @@
 		745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6828068B7700D259DE /* RGBToHexConversion.swift */; };
 		745B5E6B28069D9700D259DE /* ValidBraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6A28069D9700D259DE /* ValidBraces.swift */; };
 		745B5E6F2806CB6500D259DE /* PlayingWithDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B5E6E2806CB6500D259DE /* PlayingWithDigits.swift */; };
+		747B84FF281275BA00887045 /* NextBiggerNumberWithSameDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B84FE281275BA00887045 /* NextBiggerNumberWithSameDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		745B5E6828068B7700D259DE /* RGBToHexConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBToHexConversion.swift; sourceTree = "<group>"; };
 		745B5E6A28069D9700D259DE /* ValidBraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBraces.swift; sourceTree = "<group>"; };
 		745B5E6E2806CB6500D259DE /* PlayingWithDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithDigits.swift; sourceTree = "<group>"; };
+		747B84FE281275BA00887045 /* NextBiggerNumberWithSameDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBiggerNumberWithSameDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		745B5E5728067FD800D259DE /* CodeWarsKatas */ = {
 			isa = PBXGroup;
 			children = (
+				747B84FD2812758100887045 /* 4kyu */,
 				745B5E652806893700D259DE /* 5kyu */,
 				745B5E62280683CE00D259DE /* 7kyu */,
 				745B5E5F28067FDF00D259DE /* 6kyu */,
@@ -102,6 +105,14 @@
 				745B5E6828068B7700D259DE /* RGBToHexConversion.swift */,
 			);
 			path = 5kyu;
+			sourceTree = "<group>";
+		};
+		747B84FD2812758100887045 /* 4kyu */ = {
+			isa = PBXGroup;
+			children = (
+				747B84FE281275BA00887045 /* NextBiggerNumberWithSameDigits.swift */,
+			);
+			path = 4kyu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				745B5E5928067FD800D259DE /* main.swift in Sources */,
 				745B5E64280683E200D259DE /* ToLeetSpeak.swift in Sources */,
 				745B5E6928068B7700D259DE /* RGBToHexConversion.swift in Sources */,
+				747B84FF281275BA00887045 /* NextBiggerNumberWithSameDigits.swift in Sources */,
 				745B5E6F2806CB6500D259DE /* PlayingWithDigits.swift in Sources */,
 				745B5E672806895300D259DE /* WeightForWeight.swift in Sources */,
 			);
