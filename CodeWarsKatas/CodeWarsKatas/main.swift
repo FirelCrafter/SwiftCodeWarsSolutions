@@ -7,5 +7,5 @@
 
 import Foundation
 
-
+print(sumOfTwoSmallestIntegersIn([5, 8, 12, 22, 14]))
 
